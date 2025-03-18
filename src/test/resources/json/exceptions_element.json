@@ -1,0 +1,30 @@
+[
+  {
+    "exception": "ElementNotVisibleException",
+    "message": "O Elemento está presente mas não vísivel"
+  },
+  {
+    "exception": "NoSuchElementException",
+    "message": "O Elemento não está presente na pagina"
+  },
+  {
+    "exception": "ElementNotFound",
+    "message": "O Elemento não foi encontrado na pagina"
+  },
+  {
+    "exception": "StaleElementReferenceException",
+    "message": "O Elemento foi encontrado, porém velocidade da automação está muito alta"
+  },
+  {
+    "exception": "TimeoutException",
+    "message": "O Tempo definido para esperar o elemento não foi suficiente"
+  },
+  {
+    "exception": "ElementClickInterceptedException",
+    "message": "O elemento que recebe os eventos está ocultando"
+  },
+  {
+    "exception": "AssertionError",
+    "message": "Ocorreu uma divergencia entre o resultado Esperado e Obtido"
+  }
+]

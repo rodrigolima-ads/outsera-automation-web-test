@@ -1,0 +1,33 @@
+[
+  {
+    "user": "with_access",
+    "login": "standard_user",
+    "senha": "secret_sauce"
+  },
+  {
+    "user": "bloqueado",
+    "login": "locked_out_user",
+    "senha": "secret_sauce"
+  },
+  {
+    "user": "problema",
+    "login": "problem_user",
+    "senha": "secret_sauce"
+  },
+
+  {
+    "user": "desempenho",
+    "login": "performance_glitch_user",
+    "senha": "secret_sauce"
+  },
+  {
+    "user": "error",
+    "login": "marisa_strate",
+    "senha": "secret_sauce"
+  },
+  {
+    "user": "visualizar",
+    "login": "djenifer_wessel",
+    "senha": "secret_sauce"
+  }
+]

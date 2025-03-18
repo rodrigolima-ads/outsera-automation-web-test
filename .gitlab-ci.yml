@@ -1,0 +1,22 @@
+default:
+  image: maven:3.8-openjdk-17
+  services:
+    - name: selenium/standalone-chrome:latest
+      alias: chrome
+
+stages:
+  - loginTest
+  - checkoutTest
+
+"Teste Autenticação":
+  stage: loginTest
+  script:
+    - echo Executanto teste auth...
+    - mvn clean test -Dgroups=login 
+
+"Testes de E2E":
+  stage: checkoutTest
+  script:
+    - echo Executanto Testes End-to-End...
+    - mvn clean test -Dgroups=checkout
+

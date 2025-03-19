@@ -15,6 +15,15 @@ Para execução do projeto, é necessário possuir as seguintes instalações na
 - Java 17 ou superior;
 - Maven.
 
+
+## Tecnologias e Bibliotecas
+- Java 17
+- Maven
+- [Junit 5](https://junit.org/junit5/docs/current/user-guide/)
+- [Selenide](https://selenide.org/documentation.html)
+- [JavaFaker](https://www.baeldung.com/java-faker)
+
+
 ### Executando o projeto
 Após atender as pré-condições, executar o comando `mvn install` para baixar as dependências;
 
